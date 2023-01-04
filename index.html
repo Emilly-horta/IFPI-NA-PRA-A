@@ -1,13 +1,147 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-        <h1>Guia Virtual</h1>
-        <div>
-            <h1>Monumento X</h1>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <meta charset="utf-8"/>
+  <body>
+    <div>
+      <div class="collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div>
-            <h1>Monumento Y</h1>
+      </div>
+      <div class="navbar navbar-light" style="background-color: #BAEFBF;">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>IFPI NA PRAÇA</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-    </body>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center" style="padding: 4rem;">
+        <div class="container">
+          <h1 class="jumbotron-heading">Guia Virtual</h1>
+          <p class="lead text-muted">Esse site é projeto dos alunos do Instituto Federal do Piauí- campus Parnaíba</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Saiba Mais</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="./assets/museu-do-mar-index.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h4>Museu do Mar</h4>
+                  <p class="card-text">Localizado às margens do Rio Igaraçu, à direita da ponte que liga Parnaíba à Ilha Grande de Santa Isabel, o conjunto arquitetônico do Porto das Barcas é um importante complexo.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="./assets/independencia-index.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5>Monumento da Independência</h5>
+                  <p class="card-text">Localizado em frente ao colégio Diocesano na Avenida Capitão Claro, marco dos 150 anos da Independência do Piauí. Construído e Inaugurado pelo governador Alberto Tavares Silva no dia 19 de outubro de 1972.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top"  src="./assets/igreja-rosario-index.JPG"  alt="Card image cap">
+                <div class="card-body">
+                    <h4>Igreja do Rosário</h4>
+                  <p class="card-text">A construção da igreja de Nossa Senhora do Rosário foi ordenada por Domingos Dias da Silva, tendo sido construída por seus escravos, no século XVIII, em um local em que havia uma senzala.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="./assets/casarao-index.jpg"  alt="Card image cap">
+                <div class="card-body">
+                    <h4>Casarão Simplicio Dias</h4>
+                  <p class="card-text">Fundada pelo afortunado português Domingos Dias da Silva, o maior industrial de charque do Piauí: fazendeiro, lavrador, negociante a grosso, proprietário de avultada escravatura e de navios.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted" style="background-color: #BAEFBF;">
+      <div class="container" >
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Esse site é projeto dos alunos do Instituto Federal do Piauí- campus Parnaíba, turma do 2° ano Técnico em Informática integrado ao médio de 2022, procurando promover maior acessibilidade à história da cultura local.</p>
+      </div>
+    </footer>
+    </div>
+  </body>
 </html>
